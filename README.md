@@ -33,7 +33,7 @@ var Game = mongoose.model('Game', gameSchema);
 Game.create({ name: 'Super Mario 64', tags: ['nintendo', 'mario', '3d'] }, function (err) {
   if (err) return handleError(err);
 
-  Game.textSearch('3d', function (err, output) {
+  Game.search('3d', function (err, output) {
     if (err) return handleError(err);
 
     var inspect = require('util').inspect;
@@ -88,7 +88,7 @@ var options = {
   , lean: true
 }
 
-Game.textSearch('game -mario', options, callback);
+Game.search('game -mario', options, callback);
 ```
 
 ## Notes:
