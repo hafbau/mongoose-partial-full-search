@@ -1,6 +1,6 @@
 {
   "name": "mongoose-partial-full-search",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MongoDB partial and full text search support for mongoose",
   "main": "index.js",
   "scripts": {
