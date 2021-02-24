@@ -1,6 +1,6 @@
 var assert = require('assert')
 var mongoose = require('mongoose')
-var uri = 'mongodb://localhost/test-mongoose-partial-full-search';
+var uri = 'mongodb://localhost:27018/test-mongoose-partial-full-search';
 var addPartialFullSearch = require('../')
 
 function getSchema () {
