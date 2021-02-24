@@ -15,10 +15,10 @@ var textSearch = require('mongoose-partial-full-search');
 
 // create our schema
 var gameSchema = mongoose.Schema({
-    name: String
-  , tags: [String]
-  , likes: Number
-  , created: Date
+    name: String,
+    tags: [String],
+    likes: Number,
+    created: Date,
 });
 
 // give our schema text search capabilities
