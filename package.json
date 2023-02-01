@@ -23,6 +23,6 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "*",
-    "mongoose": "5.7.x"
+    "mongoose": "5.13.x"
   }
 }
